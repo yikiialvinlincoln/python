@@ -67,3 +67,12 @@ def hack(name, yob, district):
     age = currentyear - yob
     print(age)
 hack("lincoln", 1999, "arua")
+
+def menu(district, color, car, name, age):
+    print(district)
+    print(color)
+    print(car)
+    print(name)
+    print(age)
+menu("arua", "blue", "benz","lincoln", 25)    
+
