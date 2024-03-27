@@ -6,7 +6,8 @@ class Person:
         self.age = age
         self.location = location
         self.size = size
-person1 = Person("alvin", "male", "24", "ntinda", "slender")        
+person1 = Person("alvin", "male", "24", "ntinda", "slender")   
+print(person1.name, person1.gender, person1.age, person1.location)  
 
 
 class Dog:
@@ -17,6 +18,7 @@ class Dog:
         linc.species = species
         linc.size = size
 dog1 = Dog("spike", "male", "6","german shepard", "big")
+print(dog1.name, dog1.gender, dog1.age, dog1.species)
 
 class Benz:
     def __init__(self, model, color, fuel, engine, shape):
@@ -26,6 +28,7 @@ class Benz:
         self.engine = engine
         self.shape = shape
 mybenz = Benz("ML350", "black", "diesel", "v6", "suv")
+print(mybenz.model, mybenz.engine)
 
 class House:
     def __init__(self, type, location, size, color, roofing):
@@ -45,4 +48,6 @@ class Samsung:
         alvin.simpacks = simpacks
 mysamsung = Samsung("S23", "256gb", "matte black", "brand new", "single slot")        
 
-
+#the shish function is called a constructor
+#it is used to initialize an instantiate object
+#the shish function is used to give values to an object
